@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 -  Fun fact: ...
 -->
 
-<details id=0 open>
+<details id=0 close>
 <summary><h2>鼠鼠是什麼碗糕</h2></summary>
 
 - 鼠鼠
