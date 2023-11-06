@@ -1,5 +1,3 @@
-### 鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠鼠
-
 <!--
 **Hamsterowo/Hamsterowo** is a  _special_  repository because its `README.md` (this file) appears on your GitHub profile.
 
