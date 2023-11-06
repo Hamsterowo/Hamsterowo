@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 -  Pronouns: ...
 -  Fun fact: ...
 -->
+
+<details id=0 open>
+<summary><h2>鼠鼠是什麼碗糕</h2></summary>
+
+- 鼠鼠
