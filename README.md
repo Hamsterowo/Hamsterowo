@@ -1,19 +1,11 @@
-<!--
-**Hamsterowo/Hamsterowo** is a  _special_  repository because its `README.md` (this file) appears on your GitHub profile.
+### Hi there 👋 I'm Hamster!
 
-Here are some ideas to get you started:
+- 🎓 I’m currently studying at university.
+- ⚡ Just a beginner coder.
+---
 
--  I’m currently working on ...
--  I’m currently learning ...
--  I’m looking to collaborate on ...
--  I’m looking for help with ...
--  Ask me about ...
--  How to reach me: ...
--  Pronouns: ...
--  Fun fact: ...
--->
+[![Hamsterowo's GitHub stats Dark](https://github-status.hamster.tw/api?username=hamsterowo&show_icons=true&theme=codeSTACKr)](https://hamster.tw#gh-dark-mode-only)
+[![Hamsterowo's GitHub stats Light](https://github-status.hamster.tw/api?username=hamsterowo&show_icons=true&theme=swift)](https://hamster.tw#gh-light-mode-only)
 
-<details id=0 close>
-<summary><h2>鼠鼠是什麼碗糕</h2></summary>
-
-- 鼠鼠
+[![Top Langs Dark](https://github-status.hamster.tw/api/top-langs/?username=hamsterowo&theme=codeSTACKr&size_weight=0.5&count_weight=0.5&layout=compact)](https://hamster.tw#gh-dark-mode-only)
+[![Top Langs Light](https://github-status.hamster.tw/api/top-langs/?username=hamsterowo&theme=swift&size_weight=0.5&count_weight=0.5&layout=compact)](https://hamster.tw#gh-light-mode-only)
