@@ -9,3 +9,5 @@
 
 [![Top Langs Dark](https://github-status.hamster.tw/api/top-langs/?username=hamsterowo&theme=codeSTACKr&size_weight=0.5&count_weight=0.5&layout=compact)](https://hamster.tw#gh-dark-mode-only)
 [![Top Langs Light](https://github-status.hamster.tw/api/top-langs/?username=hamsterowo&theme=swift&size_weight=0.5&count_weight=0.5&layout=compact)](https://hamster.tw#gh-light-mode-only)
+
+---
