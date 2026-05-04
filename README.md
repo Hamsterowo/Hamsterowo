@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Hamster!
+### Hi there I'm Hamster!
 
 - 🎓 I’m currently studying at university.
 - ⚡ Just a beginner coder.
