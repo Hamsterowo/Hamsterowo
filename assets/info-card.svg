@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="156" viewBox="0 0 420 156" role="img" aria-label="info card for hamsterowo">
+  <style>
+    svg {
+      --text: #1f2328;
+      --muted: #656d76;
+      --key: #0969da;
+      --accent: #1a7f37;
+    }
+    @media (prefers-color-scheme: dark) {
+      svg {
+        --text: #c9d1d9;
+        --muted: #8b949e;
+        --key: #58a6ff;
+        --accent: #3fb950;
+      }
+    }
+
+    text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 13px;
+      white-space: pre;
+      fill: var(--text);
+    }
+    .k      { fill: var(--key); font-weight: 600; }
+    .v      { fill: var(--text); }
+    .accent { fill: var(--accent); font-weight: 600; }
+    .muted  { fill: var(--muted); }
+
+    /* every line fades in from the left, staggered by inline animation-delay */
+    .ln {
+      opacity: 0;
+      animation: reveal .42s cubic-bezier(.22,.61,.36,1) forwards;
+    }
+    @keyframes reveal {
+      from { opacity: 0; transform: translateX(-8px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    .cursor {
+      fill: var(--accent);
+      animation: blink 1.05s steps(1) infinite;
+      animation-delay: 1.4s;
+      opacity: 0;
+    }
+    @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ln     { opacity: 1; animation: none; }
+      .cursor { opacity: 1; animation: none; }
+    }
+  </style>
+
+  <text class="ln" x="8" y="20" style="animation-delay:.05s"><tspan class="accent">hamster</tspan><tspan class="muted">@</tspan><tspan class="accent">github</tspan></text>
+  <text class="ln muted" x="8" y="36" style="animation-delay:.12s">----------------------------------------</text>
+
+  <text class="ln" x="8" y="58"  style="animation-delay:.22s"><tspan class="k" x="8">Role</tspan><tspan class="v" x="90">Student · Beginner coder</tspan></text>
+  <text class="ln" x="8" y="78"  style="animation-delay:.32s"><tspan class="k" x="8">Stack</tspan><tspan class="v" x="90">JavaScript · C++ · Python · Flutter</tspan></text>
+  <text class="ln" x="8" y="98"  style="animation-delay:.42s"><tspan class="k" x="8">Project</tspan><tspan class="v" x="90">YunTool — 雲科 App</tspan></text>
+  <text class="ln" x="8" y="118" style="animation-delay:.52s"><tspan class="k" x="8">Web</tspan><tspan class="v" x="90">hamster.tw</tspan></text>
+
+  <text class="ln" x="8" y="144" style="animation-delay:.65s"><tspan class="accent">$</tspan><tspan class="cursor" dx="8">_</tspan></text>
+</svg>

@@ -1,0 +1,43 @@
+name: Update contribution heatmap
+
+on:
+  schedule:
+    - cron: "17 20 * * *" # 04:17 Asia/Taipei daily
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate_heatmap.py"
+      - ".github/workflows/update-heatmap.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Render heatmap
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python scripts/generate_heatmap.py
+
+      - name: Commit if changed
+        run: |
+          if [[ -z "$(git status --porcelain assets/contrib-heatmap.svg)" ]]; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contrib-heatmap.svg
+          git commit -m "chore: refresh contribution heatmap"
+          git push
